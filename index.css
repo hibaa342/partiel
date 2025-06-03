@@ -1,0 +1,482 @@
+*{
+    font-family: Montserrat;
+}
+
+.literata-<uniquifier> {
+  font-family: "Literata", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+.middle p {
+    
+    font-weight: 500;
+}
+
+.header img
+{
+    height: 50px;
+    width: 60px;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.middle
+{
+    display: flex;
+   gap: 20%;
+   justify-content: center;
+   align-items: center;
+}
+.flex
+{
+    display: flex;
+}
+.right img
+{
+    height: 20px;
+    width: 20px;
+}
+.right
+{
+    gap: 20px;
+}
+/* part1 */
+
+.first_page {
+    width: 100%;
+    height: auto;
+    
+    gap: 80px;
+    justify-content: center;
+}
+
+.first_page img {
+    height: 600px;
+    width: auto;
+}
+
+.right_1st p {
+    text-align: center;
+     color: #555555;
+}
+.two_buttons {
+    margin-top: 30px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.right_1st h1
+{
+    font-size:72px;
+    font-weight: 500;
+    font-family: Literata;
+   
+}
+
+
+.right_1st
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shop
+{
+    background-color: #DCB780;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore
+{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* countdown */
+
+.notif {
+    background-color: white;
+    color: #D9D1C5;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.countdown
+{
+    background-color: #D9D1C5;
+    color: #FFFFFF;
+    font-family: Literata;
+    justify-content: space-around;
+    height: 90px;
+    align-items: center;
+    font-size: 25px;
+    padding: 20px 0;
+}
+.time_in_detail
+{
+    gap: 50px;
+}
+
+/* page2 */
+
+.top
+{
+    align-items: center;
+    display: flex;
+}
+
+.left
+{
+    gap: 50px;
+}
+.page2 .left h1 
+{
+    font-size: 48px;
+    font-family: 'Literata';
+    font-weight: 600;
+}
+.page2 .left p 
+{
+    font-size: 20px;
+    color: #666;
+}
+.right img
+{
+    height: 30px;
+    width: 50px;
+}
+
+.bottom
+{
+    gap: 30px;
+}
+.btm_right
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* page4 */
+
+.product {
+    padding: 20px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    max-width: 350px;
+}
+
+.product .name h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.rating {
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+
+.round
+{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.one
+{
+    background-color: #45331D;
+}
+.two
+{
+    background-color: #855B1C;
+}
+.three
+{
+    background-color: #E8C96D;
+}
+.four
+{
+    background-color: #E8C96D;
+}
+.five
+{
+    background-color: #445093;
+}
+.six
+{
+    background-color: #246613;
+}
+.seven
+{
+    background-color: #C79163;
+}
+.eight
+{
+    background-color: #DCD2C3;
+}
+.nine
+{
+    background-color: #9A8852;
+}
+
+.bottom_4
+{
+    justify-content: center;
+    gap: 70px;
+    text-align: center;
+}
+
+
+.top
+{
+    display: flex;
+    flex-direction: column;
+}
+.middle_4
+{
+    gap: 50px;
+    justify-content: center;
+}
+.colors
+{
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.order
+{
+    background-color: #DCB780;
+    justify-content: center;
+    align-items: center;
+}
+.order img
+{
+    height: 25px;
+    width: 25px;
+
+}
+
+/* more */
+
+.more
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more img
+{
+    height: 30px;
+    width: 50px;
+}
+
+/* page5 */
+
+.page5
+{
+    background-color: #D9D1C5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+.page5 h1
+{
+    font-size:50px;
+    font-weight: 500;
+    font-family: Literata;
+}
+.page5 p
+{
+    
+    font-size: 20px;
+}
+
+.email 
+{
+    gap: 50px;
+    background-color: white;
+    width: 450px;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sub
+{
+    background-color: #DCB780;
+    color: white;
+    height: 70px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email p {
+    color: #999;
+}
+
+/* footer */
+
+.column h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.footer
+{
+    color: white;
+    background-color: #DEAE68;
+    justify-content: space-around;
+    padding: 60px 40px;
+    flex-wrap: wrap;
+    
+}
+.med 
+{
+    flex-direction: column;
+    gap: 15px;
+}
+.med img
+{
+    height: 40px;
+    width: 40px;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  
+  .flex,
+  .header,
+  .middle,
+  .first_page,
+  .countdown,
+  .top,
+  .bottom,
+  .bottom_4,
+  .email,
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .first_page {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .first_page img {
+    width: 80%;
+    height: auto;
+    max-width: 300px;
+  }
+
+  .right_1st h1 {
+    font-size: 30px;
+  }
+
+  .two_buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .countdown {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .time_in_detail {
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .btm_right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-items: center;
+  }
+
+  .product img {
+    width: 100%;
+    height: auto;
+    max-width: 120px;
+  }
+
+  .star {
+    font-size: 16px; 
+  }
+
+  .email {
+    width: 90%;
+    gap: 10px;
+    height: auto;
+    padding: 20px;
+  }
+
+  .sub {
+    width: 100%;
+    height: 45px;
+  }
+
+  .footer {
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .med {
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+  }
+
+
+
+}
+
+
+
+
+@media screen and (min-width: 501px) {
+    #toggle {
+        display: none;
+    }
+}
+
+.rectangle
+{
+    height: 7px;
+    width: 30px;
+    background-color: rgb(147, 139, 139);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
